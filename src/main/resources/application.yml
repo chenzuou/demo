@@ -4,8 +4,8 @@ spring:
   ## 当前服务名称
   application:
     name: service-demo
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+#  rabbitmq:
+      ##    host: localhost
+      ##    port: 5672
+    ##    username: guest
+    ##    password: guest
