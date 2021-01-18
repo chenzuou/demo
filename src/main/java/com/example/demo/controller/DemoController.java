@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 	@GetMapping
-	public void helloWorld(){
-		System.out.println("HELLO WORLD");
+	public String helloWorld(){
+		String name = "HELLO WORLD";
+		System.out.println(name);
+		return name;
 	}
 }
